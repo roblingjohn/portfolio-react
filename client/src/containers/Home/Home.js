@@ -1,9 +1,12 @@
 import React from 'react';
+import MainSquare from '../../components/MainSquare/MainSquare'
 
 const Home = () => {
     return (
         <div>
-            <h1>This is the home page.</h1>
+            <MainSquare route="about" text="About"/>
+            <MainSquare route="portfolio" text="Portfolio"/>
+            <MainSquare route="contact" text="Contact" />
         </div>
     );
 };
