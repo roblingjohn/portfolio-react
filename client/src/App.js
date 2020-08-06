@@ -6,6 +6,7 @@ import About from './containers/About/About'
 import Portfolio from './containers/Portfolio/Portfolio'
 import Contact from './containers/Contact/Contact'
 import NoMatch from './containers/NoMatch/NoMatch';
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   useEffect(() => {
@@ -15,7 +16,9 @@ function App() {
     })
   })
   return (
-    <Router>
+    <>
+        <Router>
+    <Navbar />
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About}/>
@@ -24,7 +27,8 @@ function App() {
         <Route component={NoMatch}/>
       </Switch>
     </Router>
-  );
+    </>
+  )
 }
 
 export default App;
