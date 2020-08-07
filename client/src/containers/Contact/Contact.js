@@ -30,7 +30,7 @@ const Contact = () => {
               </li>
               <li>
                 <h4>
-                  <a href="./assets/other/JohnRoblingResume7-21-20.pdf">
+                  <a href="https://drive.google.com/file/d/1YBa_K4S-zNjYOwtFz1FCQ-4bLMoQcaPo/view?usp=sharing">
                     Resume
                   </a>
                 </h4>

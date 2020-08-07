@@ -2,16 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <article class="container">
-      <div class="row">
-        <div class="col-sm">
+    <article className="container">
+      <div className="row">
+        <div className="col-sm">
           <h1>About</h1>
           <hr />
           <p>
             <img
-              class="image-thumbnail float-left article-img"
+              className="image-thumbnail float-left article-img"
               src="./assets/images/engagement.jpg"
-              alt="Picture of John and his cat"
+              alt="John Robling"
             />
             Hi, I'm John! I'm currently a student in the Georgia Tech Full Stack
             Web Development program. I previously worked in the film industry,
