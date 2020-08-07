@@ -1,11 +1,49 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
-    return (
-        <div>
-            <h1>This is the contact page.</h1>
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 contact-box">
+          <div className="contact">
+            <h1>Contact</h1>
+            <ul>
+              <li>
+                <h4>
+                  Email:{" "}
+                  <a href="mailto:roblingjohn@gmail.com">
+                    roblingjohn@gmail.com
+                  </a>
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="https://github.com/roblingjohn">Github</a>
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="https://www.linkedin.com/in/john-robling-88679a1a8/">
+                    LinkedIn
+                  </a>
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="./assets/other/JohnRoblingResume7-21-20.pdf">
+                    Resume
+                  </a>
+                </h4>
+              </li>
+              <li>
+                <h4>Phone: 404.468.8398</h4>
+              </li>
+            </ul>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Contact;
