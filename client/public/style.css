@@ -1,143 +1,146 @@
 /* general body styling  */
 body {
-    background-color: #F8DCB6;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../images/background.png");
+  background-color: #f8dcb6;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/background.png");
 }
 
 /* general object styling  */
 article {
-    background-color: white;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 section {
-    background-color: white;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    margin-top: 50px;
-    margin-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 a {
-    color: #F57689;
+  color: #f57689;
 }
 
 /* navbar styling  */
 .navbar {
-    background-color: skyblue;
-    color: black;
+  background-color: skyblue;
+  color: black;
 }
 
-a.navbar-brand, a:active.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand {
-    color: white;
-    background-color: #4E40E0;
-    margin-left: 50px;
-    padding: 5px;
-    border-radius: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+a.navbar-brand,
+a:active.navbar-brand,
+a:link.navbar-brand,
+a:visited.navbar-brand {
+  color: white;
+  background-color: #4e40e0;
+  margin-left: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* main page styling  */
 .main-square {
-    margin-left: 5px;
-    margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.main-box-entry{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.main-box-entry {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main-img-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* image styling  */
 .main-img {
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 1px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .article-img {
-    padding: 5px;
-    margin-right: 10px;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 1px;
-    border-radius: 5px;
-    width: 250px;
+  padding: 5px;
+  margin-right: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 250px;
 }
 
 .portfolio-img {
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 1px;
-    border-radius: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: auto;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: auto;
 }
 
 /* box and container styling  */
 .contact-box {
-    background-color: white;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 10px;
-    margin: auto;
-    margin-top: 20px;
-    width: 450px
+  background-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  width: 450px;
 }
 
 .portfolio-container {
-    max-width: 780px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    background-color: white;
+  max-width: 780px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  background-color: white;
 }
 
 .portfolio-box {
-    margin: 5px;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 3px;
-    border-radius: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #E5E8F5;
+  margin: 5px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 3px;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e5e8f5;
 }
 
-.portfolio-header{
-    text-align: center;
+.portfolio-header {
+  text-align: center;
 }
 
 /* stlying for contact box */
@@ -145,4 +148,3 @@ a.navbar-brand, a:active.navbar-brand, a:link.navbar-brand, a:visited.navbar-bra
 .contact {
   border-radius: 5px;
 }
-

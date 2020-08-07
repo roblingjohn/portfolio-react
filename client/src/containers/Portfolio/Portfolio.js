@@ -64,7 +64,7 @@ class Portfolio extends Component {
           />
         </div>
         <div className="row">
-        <ProjectItem
+          <ProjectItem
             title={this.state.projects.projectArray[2].title}
             deployed={this.state.projects.projectArray[2].deployed}
             repo={this.state.projects.projectArray[2].repo}
@@ -78,7 +78,7 @@ class Portfolio extends Component {
           />
         </div>
         <div className="row">
-        <ProjectItem
+          <ProjectItem
             title={this.state.projects.projectArray[4].title}
             deployed={this.state.projects.projectArray[4].deployed}
             repo={this.state.projects.projectArray[4].repo}
