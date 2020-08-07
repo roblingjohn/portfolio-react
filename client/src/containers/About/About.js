@@ -11,7 +11,7 @@ const About = () => {
             <img
               class="image-thumbnail float-left article-img"
               src="./assets/images/engagement.jpg"
-              alt="Picture of John and his cat"
+              alt="John Robling"
             />
             Hi, I'm John! I'm currently a student in the Georgia Tech Full Stack
             Web Development program. I previously worked in the film industry,
