@@ -13,7 +13,7 @@ const ProjectItem = (props) => {
       <img
         src={props.screenshotURL}
         className="portfolio-img"
-        alt="Sceenshot of deployed BrüHub"
+        alt={props.title}
       />
     </div>
   );
