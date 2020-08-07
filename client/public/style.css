@@ -41,7 +41,7 @@ a {
     color: black;
 }
 
-.navbar-brand {
+a.navbar-brand, a:active.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand {
     color: white;
     background-color: #4E40E0;
     margin-left: 50px;
