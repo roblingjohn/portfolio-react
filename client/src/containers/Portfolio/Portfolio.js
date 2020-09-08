@@ -3,6 +3,12 @@ import ProjectItem from "../../components/ProjectItem/ProjectItem";
 
 const projectArray = [
   {
+    title: "Linguick",
+    deployed: "https://linguick.herokuapp.com/",
+    repo: "https://github.com/roblingjohn/Linguick",
+    screenshotURL: "../../../../assets/images/linguick_ss.png",
+  },
+  {
     title: "Done n' Dusted",
     deployed: "https://fathomless-sands-26873.herokuapp.com/",
     repo: "https://github.com/roblingjohn/grocr-receipt-app",
@@ -15,29 +21,25 @@ const projectArray = [
     screenshotURL: "../../../../assets/images/bruhub_ss.png",
   },
   {
+    title: "Google Books Search",
+    deployed: "https://tranquil-eyrie-73993.herokuapp.com/saved",
+    repo: "https://github.com/roblingjohn/gt-21-google_books_search",
+    screenshotURL: "../../../../assets/images/books_ss.png",
+  },
+  {
     title: "Employee Directory",
     deployed: "https://roblingjohn.github.io/gt-19-employee_directory/",
     repo: "https://github.com/roblingjohn/gt-19-employee_directory",
     screenshotURL: "../../../../assets/images/employee_ss.png",
   },
-  {
-    title: "Budget Tracker",
-    deployed: "https://calm-falls-18508.herokuapp.com/",
-    repo: "https://github.com/roblingjohn/gt-homework-18-budget_tracker",
-    screenshotURL: "../../../../assets/images/budget_ss.png",
-  },
+
   {
     title: "Note Taker",
     deployed: "https://sheltered-springs-82717.herokuapp.com/",
     repo: "https://github.com/roblingjohn/gt-homework-11-note_taker",
     screenshotURL: "../../../../assets/images/notes_ss.png",
   },
-  {
-    title: "Weather App",
-    deployed: "https://roblingjohn.github.io/gt-homework-06-weatherapp/",
-    repo: "https://github.com/roblingjohn/gt-homework-06-weatherapp",
-    screenshotURL: "../../../../assets/images/weather_ss.png",
-  },
+
 ];
 
 class Portfolio extends Component {
