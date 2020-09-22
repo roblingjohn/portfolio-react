@@ -39,13 +39,6 @@ const projectArray = [
     screenshotURL: "../../../../assets/images/employee_ss.png",
   },
 
-  {
-    title: "Note Taker",
-    deployed: "https://sheltered-springs-82717.herokuapp.com/",
-    repo: "https://github.com/roblingjohn/gt-homework-11-note_taker",
-    screenshotURL: "../../../../assets/images/notes_ss.png",
-  },
-
 ];
 
 class Portfolio extends Component {
