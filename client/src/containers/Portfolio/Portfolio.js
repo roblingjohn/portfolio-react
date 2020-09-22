@@ -15,6 +15,12 @@ const projectArray = [
     screenshotURL: "../../../../assets/images/grocr_ss.png",
   },
   {
+    title: "Cat Nicknames",
+    deployed: "https://cat-nicknames-jr.herokuapp.com/",
+    repo: "https://github.com/roblingjohn/cat-nicknames",
+    screenshotURL: "../../../../assets/images/cat-nicknames.png",
+  },
+  {
     title: "BrüHub",
     deployed: "https://jmh129.github.io/BruHub/",
     repo: "https://github.com/roblingjohn/BruHub",
