@@ -13,7 +13,7 @@ This site contains John Robling's project portfolio and contact information.
 
 ## Usage
 
-[Deployed Site](https://jonhroblingportfolio.herokuapp.com/)
+[Deployed Site](http://johnrobling.com/)
 ![Home](client/public/assets/images/screenshot.png)
 
 ## Contributing
