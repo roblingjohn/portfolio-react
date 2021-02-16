@@ -38,7 +38,6 @@ const projectArray = [
     repo: "https://github.com/roblingjohn/gt-19-employee_directory",
     screenshotURL: "../../../../assets/images/employee_ss.png",
   },
-
 ];
 
 class Portfolio extends Component {
@@ -51,46 +50,14 @@ class Portfolio extends Component {
       <article className="container portfolio-container">
         <h1>Portfolio</h1>
         <div className="row">
-          <ProjectItem
-            title={this.state.projects.projectArray[0].title}
-            deployed={this.state.projects.projectArray[0].deployed}
-            repo={this.state.projects.projectArray[0].repo}
-            screenshotURL={this.state.projects.projectArray[0].screenshotURL}
-          />
-          <ProjectItem
-            title={this.state.projects.projectArray[1].title}
-            deployed={this.state.projects.projectArray[1].deployed}
-            repo={this.state.projects.projectArray[1].repo}
-            screenshotURL={this.state.projects.projectArray[1].screenshotURL}
-          />
-        </div>
-        <div className="row">
-          <ProjectItem
-            title={this.state.projects.projectArray[2].title}
-            deployed={this.state.projects.projectArray[2].deployed}
-            repo={this.state.projects.projectArray[2].repo}
-            screenshotURL={this.state.projects.projectArray[2].screenshotURL}
-          />
-          <ProjectItem
-            title={this.state.projects.projectArray[3].title}
-            deployed={this.state.projects.projectArray[3].deployed}
-            repo={this.state.projects.projectArray[3].repo}
-            screenshotURL={this.state.projects.projectArray[3].screenshotURL}
-          />
-        </div>
-        <div className="row">
-          <ProjectItem
-            title={this.state.projects.projectArray[4].title}
-            deployed={this.state.projects.projectArray[4].deployed}
-            repo={this.state.projects.projectArray[4].repo}
-            screenshotURL={this.state.projects.projectArray[4].screenshotURL}
-          />
-          <ProjectItem
-            title={this.state.projects.projectArray[5].title}
-            deployed={this.state.projects.projectArray[5].deployed}
-            repo={this.state.projects.projectArray[5].repo}
-            screenshotURL={this.state.projects.projectArray[5].screenshotURL}
-          />
+          {projectArray.map((entry) => (
+            <ProjectItem
+              title={entry.title}
+              deployed={entry.deployed}
+              repo={entry.repo}
+              screenshotURL={entry.screenshotURL}
+            />
+          ))}
         </div>
       </article>
     );
