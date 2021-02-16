@@ -3,6 +3,12 @@ import ProjectItem from "../../components/ProjectItem/ProjectItem";
 
 const projectArray = [
   {
+    title: "Brixiety",
+    deployed: "http://brixiety.com",
+    repo: "https://github.com/roblingjohn/brixiety",
+    screenshotURL: "../../../../assets/images/brixiety_ss.png",
+  },
+  {
     title: "Linguick",
     deployed: "https://linguick.herokuapp.com/",
     repo: "https://github.com/roblingjohn/Linguick",
@@ -25,12 +31,6 @@ const projectArray = [
     deployed: "https://jmh129.github.io/BruHub/",
     repo: "https://github.com/roblingjohn/BruHub",
     screenshotURL: "../../../../assets/images/bruhub_ss.png",
-  },
-  {
-    title: "Google Books Search",
-    deployed: "https://tranquil-eyrie-73993.herokuapp.com/saved",
-    repo: "https://github.com/roblingjohn/gt-21-google_books_search",
-    screenshotURL: "../../../../assets/images/books_ss.png",
   },
   {
     title: "Employee Directory",
