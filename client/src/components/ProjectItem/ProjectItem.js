@@ -1,6 +1,7 @@
 import React from "react";
 
 const ProjectItem = (props) => {
+  console.log(props.screenshotURL)
   return (
     <div className="col-sm portfolio-box">
       <h2 className="portfolio-header">{props.title}</h2>
@@ -11,7 +12,7 @@ const ProjectItem = (props) => {
         <a href={props.repo}>GitHub Repository</a>
       </p>
       <img
-        src={props.screenshotURL}
+        src={require(`../../assets/images/${props.screenshotURL}`)}
         className="portfolio-img"
         alt={props.title}
       />
