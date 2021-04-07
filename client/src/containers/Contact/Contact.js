@@ -30,7 +30,7 @@ const Contact = () => {
               </li>
               <li>
                 <h4>
-                  <a href="https://drive.google.com/file/d/1YBa_K4S-zNjYOwtFz1FCQ-4bLMoQcaPo/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1fnmzAFxXpuxNNRjfGzq9A3ZxLLD91yeS/view?usp=sharing">
                     Resume
                   </a>
                 </h4>
