@@ -1,7 +1,6 @@
 import React from "react";
 
 const ProjectItem = (props) => {
-  console.log(props.screenshotURL)
   return (
     <div className="col-sm portfolio-box">
       <h2 className="portfolio-header">{props.title}</h2>
