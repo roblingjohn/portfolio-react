@@ -1,44 +1,8 @@
 import React, { Component } from "react";
 import ProjectItem from "../../components/ProjectItem/ProjectItem";
+import projectData from "../../assets/portfolioData/portfolioData"
 
-const projectArray = [
-  {
-    title: "Brixiety",
-    deployed: "http://brixiety.com",
-    repo: "https://github.com/roblingjohn/brixiety",
-    screenshotURL: "../../../../assets/images/brixiety_ss.png",
-  },
-  {
-    title: "Linguick",
-    deployed: "https://linguick.herokuapp.com/",
-    repo: "https://github.com/roblingjohn/Linguick",
-    screenshotURL: "../../../../assets/images/linguick_ss.png",
-  },
-  {
-    title: "Done n' Dusted",
-    deployed: "https://fathomless-sands-26873.herokuapp.com/",
-    repo: "https://github.com/roblingjohn/grocr-receipt-app",
-    screenshotURL: "../../../../assets/images/grocr_ss.png",
-  },
-  {
-    title: "Cat Nicknames",
-    deployed: "https://cat-nicknames-jr.herokuapp.com/",
-    repo: "https://github.com/roblingjohn/cat-nicknames",
-    screenshotURL: "../../../../assets/images/cat-nicknames.png",
-  },
-  {
-    title: "BrüHub",
-    deployed: "https://jmh129.github.io/BruHub/",
-    repo: "https://github.com/roblingjohn/BruHub",
-    screenshotURL: "../../../../assets/images/bruhub_ss.png",
-  },
-  {
-    title: "Employee Directory",
-    deployed: "https://roblingjohn.github.io/gt-19-employee_directory/",
-    repo: "https://github.com/roblingjohn/gt-19-employee_directory",
-    screenshotURL: "../../../../assets/images/employee_ss.png",
-  },
-];
+const projectArray = projectData
 
 class Portfolio extends Component {
   state = {

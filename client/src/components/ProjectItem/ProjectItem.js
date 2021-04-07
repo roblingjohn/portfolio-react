@@ -11,7 +11,7 @@ const ProjectItem = (props) => {
         <a href={props.repo}>GitHub Repository</a>
       </p>
       <img
-        src={props.screenshotURL}
+        src={require(`../../assets/images/${props.screenshotURL}`)}
         className="portfolio-img"
         alt={props.title}
       />
