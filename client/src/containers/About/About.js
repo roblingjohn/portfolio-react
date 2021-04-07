@@ -10,7 +10,7 @@ const About = () => {
           <p>
             <img
               className="image-thumbnail float-left article-img"
-              src="./assets/images/engagement.jpg"
+              src={require("../../assets/images/engagement.jpg")}
               alt="John Robling"
             />
             Hi, I'm John! I'm currently a student in the Georgia Tech Full Stack
