@@ -8,7 +8,7 @@ export default [
   },
   {
     title: "WeBeRobling",
-    deployed: "http://weberobling.com",
+    deployed: "http://www.weberobling.com/?portfolio",
     repo: "https://github.com/roblingjohn/weberobling",
     screenshotURL: "weberobling_ss.png",
     searchName: "weberobling",
