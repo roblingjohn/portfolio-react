@@ -11,26 +11,34 @@ const Contact = () => {
               <li>
                 <h4>
                   Email:{" "}
-                  <a href="mailto:roblingjohn@gmail.com">
+                  <a href="mailto:roblingjohn@gmail.com" target="_blank">
                     roblingjohn@gmail.com
                   </a>
                 </h4>
               </li>
               <li>
                 <h4>
-                  <a href="https://github.com/roblingjohn">Github</a>
+                  <a href="https://github.com/roblingjohn" target="_blank">
+                    Github
+                  </a>
                 </h4>
               </li>
               <li>
                 <h4>
-                  <a href="https://www.linkedin.com/in/john-robling-88679a1a8/">
+                  <a
+                    href="https://www.linkedin.com/in/john-robling-88679a1a8/"
+                    target="_blank"
+                  >
                     LinkedIn
                   </a>
                 </h4>
               </li>
               <li>
                 <h4>
-                  <a href="https://drive.google.com/file/d/1fnmzAFxXpuxNNRjfGzq9A3ZxLLD91yeS/view?usp=sharing">
+                  <a
+                    href="https://drive.google.com/file/d/14-bDnQB8lfA1iArO6PUOhxQsCi05DVZG/view?usp=sharing"
+                    target="_blank"
+                  >
                     Resume
                   </a>
                 </h4>
