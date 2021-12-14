@@ -11,14 +11,22 @@ const Contact = () => {
               <li>
                 <h4>
                   Email:{" "}
-                  <a href="mailto:roblingjohn@gmail.com" target="_blank">
+                  <a
+                    href="mailto:roblingjohn@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     roblingjohn@gmail.com
                   </a>
                 </h4>
               </li>
               <li>
                 <h4>
-                  <a href="https://github.com/roblingjohn" target="_blank">
+                  <a
+                    href="https://github.com/roblingjohn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Github
                   </a>
                 </h4>
@@ -28,6 +36,7 @@ const Contact = () => {
                   <a
                     href="https://www.linkedin.com/in/john-robling-88679a1a8/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     LinkedIn
                   </a>
@@ -38,6 +47,7 @@ const Contact = () => {
                   <a
                     href="https://drive.google.com/file/d/14-bDnQB8lfA1iArO6PUOhxQsCi05DVZG/view?usp=sharing"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Resume
                   </a>
