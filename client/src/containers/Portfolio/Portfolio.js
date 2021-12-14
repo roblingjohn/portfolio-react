@@ -20,6 +20,7 @@ class Portfolio extends Component {
               deployed={entry.deployed}
               repo={entry.repo}
               screenshotURL={entry.screenshotURL}
+              description={entry.description}
             />
           ))}
         </div>
