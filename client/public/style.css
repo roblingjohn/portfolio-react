@@ -1,8 +1,8 @@
 /* general body styling  */
 body {
-  background-color: #f8dcb6;
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/background.png");
+  /* background-image: url("/background.png"); */
 }
 
 /* general object styling  */
@@ -37,7 +37,7 @@ a {
 
 /* navbar styling  */
 .navbar {
-  background-color: skyblue;
+  background-color: darkgray;
   color: black;
 }
 
@@ -46,7 +46,7 @@ a:active.navbar-brand,
 a:link.navbar-brand,
 a:visited.navbar-brand {
   color: white;
-  background-color: #4e40e0;
+  background-color: black;
   margin-left: 50px;
   padding: 5px;
   border-radius: 5px;
@@ -145,4 +145,8 @@ a:visited.navbar-brand {
 
 .contact {
   border-radius: 5px;
+}
+
+#sticky-footer {
+  color: white
 }
