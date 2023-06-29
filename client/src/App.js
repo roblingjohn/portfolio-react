@@ -1,19 +1,20 @@
 import React from "react";
 // import axios from "axios";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./containers/Home/Home";
-import About from "./containers/About/About";
-import Portfolio from "./containers/Portfolio/Portfolio";
-import ProjectPage from "./containers/ProjectPage/ProjectPage";
-import Contact from "./containers/Contact/Contact";
-import NoMatch from "./containers/NoMatch/NoMatch";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import Home from "./containers/Home/Home";
+// import About from "./containers/About/About";
+// import Portfolio from "./containers/Portfolio/Portfolio";
+// import ProjectPage from "./containers/ProjectPage/ProjectPage";
+// import Contact from "./containers/Contact/Contact";
+// import NoMatch from "./containers/NoMatch/NoMatch";
+// import Navbar from "./components/Navbar/Navbar";
+// import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <Router>
+      <h1>Under construction</h1>
+      {/* <Router>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -24,7 +25,7 @@ function App() {
           <Route component={NoMatch} />
         </Switch>
       </Router>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
